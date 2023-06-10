@@ -1,7 +1,6 @@
 /venv
 *conf
 /secret
-config.ini
 /AWS
 /terraform
 airflow/extraction/*.csv
