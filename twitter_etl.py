@@ -48,13 +48,12 @@ def main():
    # Process and print the search results
    for tweet in tweets:
       username = tweet.user.screen_name
-      tweet_text = tweet.text
+      # tweet_text = tweet.text
       created_at = tweet.created_at
       location = tweet.user.location
 
       search_results.append({
                               "Username": username,
-                              "Tweet_text": tweet_text,
                               "Created_at" : created_at,
                               "Location": location                              
                               })
